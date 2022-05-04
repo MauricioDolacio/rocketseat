@@ -1,0 +1,29 @@
+element {
+    /* cor atual */
+    color: currentColor;
+
+    /* cor fixa */
+    color: red;
+    color: tan;
+    color: rebeccapurple;
+
+    /* cor hexadecimal */
+    color: #090;
+    color: #009000;
+    color: #090a;
+    color: #009900aa;
+
+    /* rgb (red, green, blue, transparencia) */
+    color: rgb(255, 0, 0);
+
+    /* hsl (grau, saturação, luz, transparencia) */
+    color: hsl(180, 100%, 50%, 20%);
+
+    /* cor herdada */
+    color: inherit;
+    /* cor inicial (padrao) */
+    color: initial;
+    /* cor pelo contexto */
+    color: unset;
+}
+
