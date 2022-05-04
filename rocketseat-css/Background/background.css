@@ -1,0 +1,40 @@
+element {
+    /* cor de fundo */
+    background-color: rgb(255, 0, 0);
+
+
+    /* fundo com imagem */
+    background-image: url();
+    /* por padrao, imagens de background se repetem. Podemos alterar as repeticoes da seguinte forma:*/
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+
+
+    /* posicao do background (horizonal, vertical) */
+    background-position: left bottom;
+
+
+    /* tamanho do background */
+    /* muda o tamanho para encaixar dentro da caixa proporcionalmente */
+    background-size: contain;
+    /* estica a imagem para cobrir a caixa inteira */
+    background-position: cover;
+    /* mudando o tamanho manualmente (vertical, horizontal(opcional)) */
+    background-position: 50%;
+
+    /* onde a imagem comeca */
+    /* imagem comeca a partir da borda */
+    background-origin: border-box;
+    /* comeca a partir do conteudo (padrao) */
+    background-origin: content-box;
+    /* a partir do padding */
+    background-origin: padding-box;
+
+    /* background fica colado no scroll */
+    background-attachment: fixed;
+
+    /*gradient aplica um gradiente no background */
+    background: linear-gradient(180deg, red, yellow);
+    background: radial-gradient(red, yellow, green);
+}   
