@@ -1,7 +1,7 @@
 //function expression / anonymous
 //função sem retornar, retorna undefined
 const sum = function(number1, number2) { //parametros
-    total = number1 + number2
+    let total = number1 + number2
     return total
 }
 
