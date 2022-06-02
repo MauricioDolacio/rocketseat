@@ -1,0 +1,33 @@
+/* 
+font-family: indica as fontes que serao utilizadas. 
+Lista de prioridade. É possivel listar varias fontes caso a maquina do usuario nao tenha a primeira.
+No exemplo, é utilizado a times new roman, caso nao tenha ele vai pra times e assim vai (fallback)
+
+font-weight: peso da fonte (negrito) (normal, bold, bolder, lighter, 100, 200, 300...)
+font-style: italic, oblique...
+font-size: muda o tamanho da fonte
+
+*/
+p {
+    /* utilizamos a fonte importada do google */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;
+    /* podemos alterar a fonte deixando tudo maiusculo e pequeno por ex */
+    font-variant: normal;
+    /* pode esticar as fontes (nem todas aceitam) */
+    font-stretch: normal;
+    /* espaçamento entre as letras, palavras e linhas */
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    line-height: 1.6;
+    /* consegue deixar todos maiusculos, minusculos, etc */
+    text-transform: capitalize;
+    /* sublinha o texto */
+    text-decoration: underline dotted red;
+    /* alinha o texto */
+    text-align: center;
+    /* sombreia o texto */
+    text-shadow: 2px 2px 2px black;
+}
