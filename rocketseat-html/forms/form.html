@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- get = coloca as infos no link (para pesquisas)
+    post = esconde as infos do link (cadastros)
+    action = insere o link onde os dados serão enviados
+    id = indica qual fieldset estamos conectados
+    obs: nao coloque um form dentro de um form -->
+    <form id="contato" action="" method="GET"></form>
+
+    <!-- form = id do form
+    name = nome do fieldset -->
+    <fieldset form="contato" name="inputs-contact">
+        <!-- titulo do fieldset -->
+        <legend>Contato</legend>
+        <!-- campo para inserir dados -->
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text">
+    </fieldset>
+
+    <form action="">
+        <input type="text" value="">
+        <button type="reset">Limpar</button>
+    </form>
+
+    <form action="" id="myform"></form>
+    <button autofocus name="button" type="submit" value="Enviar" form="myform">Enviar</button>
+
+    <input 
+        type="text" 
+        list="fruitsdata" 
+        placeholder="escolha uma fruta"/>
+    
+    <datalist id="fruitsdata">
+        <option>apple</option>
+        <option>banana</option>
+        <option>orange</option>
+    </datalist>
+
+    <datalist id="colorsdata">
+        <option>##ff0000</option>
+        <option>##00ff00</option>
+    </datalist>
+    <input type="color" list="colorsdata">
+</body>
+</html>
